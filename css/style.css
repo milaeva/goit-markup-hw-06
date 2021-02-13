@@ -604,7 +604,7 @@ img {
   background: rgba(0, 0, 0, 0.2);
 
   transition-property: opacity;
-  transition-duration: 400ms;
+  transition-duration: 250ms;
   transition-timing-function: var(--cubic);
 }
 
@@ -648,7 +648,7 @@ img {
 .close-sign {
   fill: currentColor;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: var(--cubic);
 }
 
 .close-button:focus {
