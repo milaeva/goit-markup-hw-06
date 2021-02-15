@@ -738,12 +738,16 @@ textarea {
   transition-timing-function: var(--cubic);
 }
 
-.input:focus {
+.input:focus, .input:hover {
   outline: none;
   border-color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .field:focus-within .form-icon {
+  fill: var(--accent-color);
+}
+.field:hover .form-icon {
   fill: var(--accent-color);
 }
 
@@ -779,6 +783,10 @@ textarea {
   background-image: url(../images/checked.svg);
   background-size: contain;
   background-origin: border-box;
+}
+.old-checkbox:hover + .label::before,
+.old-checkbox:focus + .label::before {
+  border-color: var(--accent-color);
 }
 
 .checkbox-text {
