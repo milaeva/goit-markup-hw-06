@@ -795,16 +795,6 @@ textarea {
   color: var(--accent-color);
 }
 
-.old-checkbox:focus + .label::before {
-  border: 2px solid var(--accent-color);
-  
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
-  background-image: url(../images/checked.svg);
-  background-size: contain;
-  background-origin: border-box;
-}
-
 /* кнопка Отправить */
 
 .submit-button {
